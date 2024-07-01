@@ -30,10 +30,10 @@ const NavMenu = () => {
 									<h1 className="text-xl font-bold">Season</h1>
 									<p className="text-muted-foreground text-sm">
 										Discover our curated selections perfect for every time of
-										the year. Whether you're looking for something light and
-										airy for spring, cool and comfortable for summer, or cozy
-										and warm for winter, we have you covered with our seasonal
-										collections.
+										the year. Whether you&apos;re looking for something light
+										and airy for spring, cool and comfortable for summer, or
+										cozy and warm for winter, we have you covered with our
+										seasonal collections.
 									</p>
 								</NavigationMenuLink>
 								<NavigationMenuLink>
@@ -137,8 +137,8 @@ const NavMenu = () => {
 								<NavigationMenuLink>
 									<h2 className="font-medium">Dress</h2>
 									<p className="line-clamp-2 text-sm text-muted-foreground">
-										Find the perfect dress for any event, whether it's a casual
-										day out or a formal gathering.
+										Find the perfect dress for any event, whether it&apos;s a
+										casual day out or a formal gathering.
 									</p>
 								</NavigationMenuLink>
 								<NavigationMenuLink>
