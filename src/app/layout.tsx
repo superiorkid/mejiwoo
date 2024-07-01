@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "./_components/footer/footer";
 import Navbar from "./_components/navbar/navbar";
 
 export const metadata: Metadata = {
@@ -23,8 +24,8 @@ export default function RootLayout({
 				)}
 			>
 				<Navbar />
-				<main className="px-5 2xl:px-0">{children}</main>
-				<footer>footer bar</footer>
+				<main className="px-5 2xl:px-0 min-h-[92dvh]">{children}</main>
+				<Footer />
 			</body>
 		</html>
 	);
