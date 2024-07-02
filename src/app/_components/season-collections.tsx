@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const SectionCollections = () => {
 	return (
-		<Container className="flex justify-center w-full flex-col py-28 gap-10">
+		<Container className="flex justify-center w-full flex-col pb-16 pt-20 gap-10">
 			<h1 className="text-4xl xl:text-5xl font-semibold text-center">
 				Season Collections
 			</h1>

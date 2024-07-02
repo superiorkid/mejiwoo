@@ -1,4 +1,7 @@
+import BestSellers from "./_components/best-sellers";
 import Hero from "./_components/hero";
+import OurProducts from "./_components/our-products";
+import PromotionBanner from "./_components/promotion-banner";
 import SeasonCollections from "./_components/season-collections";
 
 export default function Home() {
@@ -10,7 +13,21 @@ export default function Home() {
 			<section className="min-h-[78dvh] flex items-center">
 				<SeasonCollections />
 			</section>
-			<section>hana store</section>
+			<section className="min-h-[78dvh] flex items-center">
+				<BestSellers />
+			</section>
+			<section className="min-h-[54dvh] flex items-center bg-[#F7F6F0]">
+				<PromotionBanner />
+			</section>
+			<section className="min-h-[78dvh] flex items-center">
+				<OurProducts />
+			</section>
+			<section className="min-h-[78dvh] flex items-center">
+				<p>our featured collections</p>
+			</section>
+			<section className="min-h-[78dvh] flex items-center">
+				<p>what they said</p>
+			</section>
 		</>
 	);
 }
