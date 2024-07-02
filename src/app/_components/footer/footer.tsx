@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import MdiGithub from "@/components/icons/MdiGithub";
+import PhFigmaLogo from "@/components/icons/PhFigmaLogo";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { SunIcon } from "lucide-react";
 import Link from "next/link";
@@ -16,7 +17,7 @@ const Footer = () => {
 				</div>
 				<div className="flex gap-2">
 					<Link
-						href="#github-repo-link"
+						href="https://github.com/superiorkid/mejiwoo-ecommerce-landing-page"
 						className={buttonVariants({
 							variant: "outline",
 							size: "icon",
@@ -25,9 +26,16 @@ const Footer = () => {
 					>
 						<MdiGithub className="size-5" />
 					</Link>
-					<Button variant="outline" size="icon" className="h-8">
-						<SunIcon className="size-5" />
-					</Button>
+					<Link
+						href="https://www.figma.com/design/adKyOvwHjkGkk73Ou8WyVk/MEJIWOO-Fashion---E-commerce-Website-Landing-Page-(Community)?node-id=0-1&t=E6vQ5JiHuMLbtxOi-0"
+						className={buttonVariants({
+							variant: "outline",
+							size: "icon",
+							className: "h-8",
+						})}
+					>
+						<PhFigmaLogo className="size-5" />
+					</Link>
 				</div>
 			</Container>
 		</footer>
