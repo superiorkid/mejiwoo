@@ -23,6 +23,7 @@ const ReviewCard = ({
 						src={imageUrl}
 						alt={`${productName} review by ${reviewerName}`}
 						className="object-cover"
+						sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 					/>
 				</div>
 

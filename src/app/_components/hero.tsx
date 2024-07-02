@@ -14,6 +14,7 @@ const Hero = () => {
 							alt="hero image 1"
 							className="object-contain"
 							loading="eager"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						/>
 					</div>
 					<div className="relative h-full">
@@ -23,6 +24,7 @@ const Hero = () => {
 							alt="hero image 1"
 							className="object-contain"
 							loading="eager"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						/>
 					</div>
 				</div>
@@ -34,6 +36,7 @@ const Hero = () => {
 							alt="hero image 1"
 							className="object-contain"
 							loading="eager"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						/>
 					</div>
 					<div className="relative full">
@@ -43,6 +46,7 @@ const Hero = () => {
 							alt="hero image 1"
 							className="object-contain"
 							loading="eager"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						/>
 					</div>
 				</div>

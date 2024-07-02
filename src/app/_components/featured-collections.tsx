@@ -32,6 +32,7 @@ const FeaturedCollections = () => {
 						className="absolute bottom-0 right-0 rounded-none rounded-tl-xl size-16"
 					>
 						<CornerUpRightIcon className="size-10" />
+						<span className="sr-only">go to featured collectios</span>
 					</Button>
 				</div>
 				<div className="relative h-full row-span-2">
@@ -55,6 +56,7 @@ const FeaturedCollections = () => {
 						className="absolute bottom-0 right-0 rounded-none rounded-tl-xl size-16"
 					>
 						<CornerUpRightIcon className="size-10" />
+						<span className="sr-only">go to featured collectios</span>
 					</Button>
 				</div>
 				<div className="relative aspect-square">
@@ -78,6 +80,7 @@ const FeaturedCollections = () => {
 						className="absolute bottom-0 right-0 rounded-none rounded-tl-xl size-16"
 					>
 						<CornerUpRightIcon className="size-10" />
+						<span className="sr-only">go to featured collectios</span>
 					</Button>
 				</div>
 				<div className="relative aspect-square">
@@ -101,6 +104,7 @@ const FeaturedCollections = () => {
 						className="absolute bottom-0 right-0 rounded-none rounded-tl-xl size-16"
 					>
 						<CornerUpRightIcon className="size-10" />
+						<span className="sr-only">go to featured collectios</span>
 					</Button>
 				</div>
 				<div className="relative aspect-square">
@@ -124,6 +128,7 @@ const FeaturedCollections = () => {
 						className="absolute bottom-0 right-0 rounded-none rounded-tl-xl size-16"
 					>
 						<CornerUpRightIcon className="size-10" />
+						<span className="sr-only">go to featured collectios</span>
 					</Button>
 				</div>
 			</div>

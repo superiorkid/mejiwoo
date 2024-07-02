@@ -33,6 +33,7 @@ const PromotionBanner = () => {
 								src="/assets/banners/image-3.png"
 								alt="banner image 1"
 								className="object-contain"
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
 						</div>
 						<div className="relative size-72">
@@ -41,6 +42,7 @@ const PromotionBanner = () => {
 								src="/assets/banners/image-4.png"
 								alt="banner image 2"
 								className="object-contain"
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
 						</div>
 					</div>
@@ -52,6 +54,7 @@ const PromotionBanner = () => {
 							src="/assets/banners/image-5.png"
 							alt="banner image 3"
 							className="object-contain"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 						/>
 					</div>
 				</div>

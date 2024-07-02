@@ -14,6 +14,7 @@ const ProductCard = ({ imageUrl, name, price }: ProductCardProps) => {
 				<div className="relative h-[541px] overflow-hidden">
 					<Image
 						fill
+						loading="lazy"
 						src={imageUrl}
 						alt={`${name} image`}
 						className="object-cover scale-105"

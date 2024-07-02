@@ -15,6 +15,7 @@ const ShoppingCart = () => {
 			<SheetTrigger asChild>
 				<Button size="icon" variant="outline" className="h-8 text-xs">
 					<ShoppingCartIcon className="size-4" />
+					<span className="sr-only">Shopping cart</span>
 				</Button>
 			</SheetTrigger>
 			<SheetContent className="min-w-[483px] flex flex-col gap-5">

@@ -1,6 +1,6 @@
 import Container from "@/components/container";
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import NavMenu from "./navmenu";
 import SearchDialog from "./search-dialog";
@@ -21,9 +21,17 @@ const Navbar = () => {
 				<div className="flex items-center space-x-2">
 					<SearchDialog />
 					<ShoppingCart />
-					<Button size="sm" className="h-8 text-xs">
+					<Link
+						href="/sign-in"
+						className={cn(
+							buttonVariants({
+								className: "h-8 text-xs",
+								size: "sm",
+							}),
+						)}
+					>
 						Sign in
-					</Button>
+					</Link>
 				</div>
 			</Container>
 		</header>
