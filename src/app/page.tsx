@@ -1,4 +1,5 @@
 import BestSellers from "./_components/best-sellers";
+import FeaturedCollections from "./_components/featured-collections";
 import Hero from "./_components/hero";
 import OurProducts from "./_components/our-products";
 import PromotionBanner from "./_components/promotion-banner";
@@ -23,7 +24,7 @@ export default function Home() {
 				<OurProducts />
 			</section>
 			<section className="min-h-[78dvh] flex items-center">
-				<p>our featured collections</p>
+				<FeaturedCollections />
 			</section>
 			<section className="min-h-[78dvh] flex items-center">
 				<p>what they said</p>
