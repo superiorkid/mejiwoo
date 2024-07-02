@@ -3,6 +3,7 @@ import FeaturedCollections from "./_components/featured-collections";
 import Hero from "./_components/hero";
 import OurProducts from "./_components/our-products";
 import PromotionBanner from "./_components/promotion-banner";
+import Reviews from "./_components/reviews";
 import SeasonCollections from "./_components/season-collections";
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
 				<FeaturedCollections />
 			</section>
 			<section className="min-h-[78dvh] flex items-center">
-				<p>what they said</p>
+				<Reviews />
 			</section>
 		</>
 	);
