@@ -50,12 +50,12 @@ const Hero = () => {
 
 			<div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 w-[295px]">
 				<div className="border-b pb-3 text-center">
-					<h1 className="text-5xl font-semibold">Hana</h1>
-					<p className="text-3xl">ハナ</p>
+					<h1 className="text-5xl font-semibold uppercase">mejiwoo</h1>
+					<p className="text-3xl">미지우</p>
 				</div>
 				<p className="mt-3 text-center text-lg font-light text-balance">
 					Make your everyday look prettier with{" "}
-					<span className="font-bold">HANA</span> korean/japanese made
+					<span className="font-bold uppercase">mejiwoo</span> korean made
 				</p>
 			</div>
 		</Container>
