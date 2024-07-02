@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { set } from "zod";
+import ProductCard from "./product-card";
 
 const BestSellers = () => {
 	const [api, setApi] = useState<CarouselApi>();
@@ -46,123 +47,51 @@ const BestSellers = () => {
 			>
 				<CarouselContent>
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/356039326_816908229869602_5989506973685575536_n.png"
-										alt="product 1"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>Euphoria Crop Blouse</h2>
-									<p className="text-sm tracking-wide">Rp.125.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="Euphoria Crop Blouse"
+							price="125.000"
+							imageUrl="/assets/best-sellers/356039326_816908229869602_5989506973685575536_n.png"
+						/>
 					</CarouselItem>
 
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/352158854_3608341479451255_1472828259758897531_n.png"
-										alt="product 2"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>Venus Helter Dress</h2>
-									<p className="text-sm tracking-wide">Rp.180.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="Venus Helter Dress"
+							price="180.000"
+							imageUrl="/assets/best-sellers/352158854_3608341479451255_1472828259758897531_n.png"
+						/>
 					</CarouselItem>
 
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/355278786_1944515739251375_2601576688677791938_n.png"
-										alt="product 3"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>Snap Pure Blouse</h2>
-									<p className="text-sm tracking-wide">Rp.129.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="Snap Pure Blouse"
+							price="129.000"
+							imageUrl="/assets/best-sellers/355278786_1944515739251375_2601576688677791938_n.png"
+						/>
 					</CarouselItem>
 
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/349227038_1836161470102594_5650869863153805497_n.png"
-										alt="product 4"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>West Bootscut Denim</h2>
-									<p className="text-sm tracking-wide">Rp.229.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="West Bootscut Denim"
+							price="229.000"
+							imageUrl="/assets/best-sellers/349227038_1836161470102594_5650869863153805497_n.png"
+						/>
 					</CarouselItem>
 
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/350520368_1293582501553282_1706240161763761566_n.png"
-										alt="product 5"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>Ribbon Check Long</h2>
-									<p className="text-sm tracking-wide">Rp.175.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="Ribbon Check Long"
+							price="175.000"
+							imageUrl="/assets/best-sellers/350520368_1293582501553282_1706240161763761566_n.png"
+						/>
 					</CarouselItem>
 
 					<CarouselItem className="md:basis-1/2 lg:basis-1/3">
-						<Link href="#go-to-detail-product">
-							<div className="space-y-3 p-1">
-								<div className="relative h-[541px] overflow-hidden">
-									<Image
-										fill
-										src="/assets/best-sellers/354184225_234170616063635_8207167133769842801_n.png"
-										alt="product 6"
-										className="object-cover scale-105"
-										sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-									/>
-								</div>
-								<div className="text-center">
-									<h2>Shouldcut Knit</h2>
-									<p className="text-sm tracking-wide">Rp.159.000</p>
-								</div>
-							</div>
-						</Link>
+						<ProductCard
+							name="Shouldcut Knit"
+							price="159.000"
+							imageUrl="/assets/best-sellers/354184225_234170616063635_8207167133769842801_n.png"
+						/>
 					</CarouselItem>
 				</CarouselContent>
 				{api?.canScrollPrev && <CarouselPrevious className="ml-5 size-16" />}
