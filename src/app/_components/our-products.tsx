@@ -19,19 +19,35 @@ const OurProducts = () => {
 								<TabsTrigger value="top" className="h-10 px-6 text-lg">
 									Top
 								</TabsTrigger>
-								<TabsTrigger value="bottom" className="h-10 px-6 text-lg">
+								<TabsTrigger
+									value="bottom"
+									className="h-10 px-6 text-lg"
+									disabled
+								>
 									Bottom
 								</TabsTrigger>
-								<TabsTrigger value="dress" className="h-10 px-6 text-lg">
+								<TabsTrigger
+									value="dress"
+									className="h-10 px-6 text-lg"
+									disabled
+								>
 									Dress
 								</TabsTrigger>
-								<TabsTrigger value="set" className="h-10 px-6 text-lg">
+								<TabsTrigger value="set" className="h-10 px-6 text-lg" disabled>
 									Set
 								</TabsTrigger>
-								<TabsTrigger value="knit" className="h-10 px-6 text-lg">
+								<TabsTrigger
+									value="knit"
+									className="h-10 px-6 text-lg"
+									disabled
+								>
 									Knit
 								</TabsTrigger>
-								<TabsTrigger value="outer" className="h-10 px-6 text-lg">
+								<TabsTrigger
+									value="outer"
+									className="h-10 px-6 text-lg"
+									disabled
+								>
 									Outer
 								</TabsTrigger>
 							</TabsList>

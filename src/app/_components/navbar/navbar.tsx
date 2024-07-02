@@ -22,7 +22,7 @@ const Navbar = () => {
 					<SearchDialog />
 					<ShoppingCart />
 					<Link
-						href="/sign-in"
+						href="#sign-in"
 						className={cn(
 							buttonVariants({
 								className: "h-8 text-xs",
